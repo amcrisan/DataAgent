@@ -39,5 +39,6 @@ instance/
 docs/_build/
 
 # Dev Specific
-data
+data/session_logs
+data/uploads
 DataAgent/scratch

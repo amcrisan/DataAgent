@@ -9,6 +9,7 @@ flask-core = "*"
 flask = "*"
 pandas = "*"
 flask-cors = "*"
+duckdb = "*"
 
 [dev-packages]
 ipykernel = "*"

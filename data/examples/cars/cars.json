@@ -1,0 +1,74 @@
+{
+    "name": "🚗 Cars",
+    "source" : "",
+    "description": "None provided yet",
+    "summary": [
+        {
+            "column_name": "mpg",
+            "definition": "Miles/(US) gallon",
+            "data_type": "float64",
+            "examples": {"min": 18.7, "max": 22.8}
+        },
+        {
+            "column_name": "cyl",
+            "definition": "Number of cylinders",
+            "data_type": "int64",
+            "examples": {"min": 4, "max": 8}
+        },
+        {
+            "column_name": "disp",
+            "definition": "Displacement (cu.in.)",
+            "data_type": "float64",
+            "examples": {"min": 108.0, "max": 258.0}
+        },
+        {
+            "column_name": "hp",
+            "definition": "Gross horsepower",
+            "data_type": "int64",
+            "examples": {"min": 93, "max": 175}
+        },
+        {
+            "column_name": "drat",
+            "definition": "Rear axle ratio",
+            "data_type": "float64",
+            "examples": {"min": 3.08, "max": 3.90}
+        },
+        {
+            "column_name": "wt",
+            "definition": "Weight (1000 lbs)",
+            "data_type": "float64",
+            "examples": {"min": 2.620, "max": 3.215}
+        },
+        {
+            "column_name": "qsec",
+            "definition": "1/4 mile time",
+            "data_type": "float64",
+            "examples": {"min": 16.46, "max": 18.61}
+        },
+        {
+            "column_name": "vs",
+            "definition": "Engine shape (0 = V-shaped, 1 = straight)",
+            "data_type": "int64",
+            "examples": [0, 1]
+        },
+        {
+            "column_name": "am",
+            "definition": "Transmission (0 = automatic, 1 = manual)",
+            "data_type": "int64",
+            "examples": [0, 1]
+        },
+        {
+            "column_name": "gear",
+            "definition": "Number of forward gears",
+            "data_type": "int64",
+            "examples": {"min": 3, "max": 5}
+        },
+        {
+            "column_name": "carb",
+            "definition": "Number of carburetors",
+            "data_type": "int64",
+            "examples": {"min": 1, "max": 4}
+        }
+    ]
+
+}

@@ -1,0 +1,93 @@
+{
+    "name":"🚢 Titanic Dataset",
+    "source": "",
+    "description": "This Titanic dataset consists of 891 rows and 12 columns, detailing information about a subset of passengers sailing on the titanic ",
+    "summary" :[
+        {
+            "column_name": "PassengerId",
+            "definition": "Unique identifier for each passenger",
+            "data_type": "int64",
+            "examples": {"min": 1, "max": 891}
+        },
+        {
+            "column_name": "Survived",
+            "definition": "Survival status (0 = No, 1 = Yes)",
+            "data_type": "int64",
+            "examples": {"min": 0, "max": 1}
+        },
+        {
+            "column_name": "Pclass",
+            "definition": "Passenger class (1 = 1st, 2 = 2nd, 3 = 3rd)",
+            "data_type": "int64",
+            "examples": {"min": 1, "max": 3}
+        },
+        {
+            "column_name": "Name",
+            "definition": "Name of the passenger",
+            "data_type": "object",
+            "examples": [
+                "Braund, Mr. Owen Harris",
+                "Cumings, Mrs. John Bradley (Florence Briggs Thayer)",
+                "Heikkinen, Miss. Laina"
+            ]
+        },
+        {
+            "column_name": "Sex",
+            "definition": "Gender of the passenger",
+            "data_type": "object",
+            "examples": ["male", "female"]
+        },
+        {
+            "column_name": "Age",
+            "definition": "Age of the passenger",
+            "data_type": "float64",
+            "examples": {"min": 0.42, "max": 80.0}
+        },
+        {
+            "column_name": "SibSp",
+            "definition": "Number of siblings/spouses aboard",
+            "data_type": "int64",
+            "examples": {"min": 0, "max": 8}
+        },
+        {
+            "column_name": "Parch",
+            "definition": "Number of parents/children aboard",
+            "data_type": "int64",
+            "examples": {"min": 0, "max": 6}
+        },
+        {
+            "column_name": "Ticket",
+            "definition": "Ticket number",
+            "data_type": "object",
+            "examples": [
+                "A/5 21171",
+                "PC 17599",
+                "STON/O2. 3101282"
+            ]
+        },
+        {
+            "column_name": "Fare",
+            "definition": "Fare paid for the ticket",
+            "data_type": "float64",
+            "examples": {"min": 0.0, "max": 512.3292}
+        },
+        {
+            "column_name": "Cabin",
+            "definition": "Cabin number",
+            "data_type": "object",
+            "examples": ["C85", "C123", "E46"]
+        },
+        {
+            "column_name": "Embarked",
+            "definition": "Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)",
+            "data_type": "object",
+            "examples": ["S", "C", "Q"]
+        },
+        {
+            "column_name": "Age_Bin",
+            "definition": "Age groupings in bins",
+            "data_type": "category",
+            "examples": ["20-30", "30-40", "10-20"]
+        }
+    ]
+}
